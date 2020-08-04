@@ -13,7 +13,18 @@ item3.innerHTML = 'I say, "Hi!';
 
 const changeImage = document.querySelector('img')
 changeImage.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg';
+changeImage.style.height = '300px';
 
+const newImage = document.querySelector('#confused')
+changeImage.style.height = '300px';
+
+const listItem = document.querySelector('ul > li')
+listItem.classList.add('item');
+listItem.setAttribute('id', 'item-16');
+
+
+const item16 = document.querySelector('#item-16')
+item16.innerHTML = 'Won\'t get fooled again';
 
 
 
